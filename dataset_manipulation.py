@@ -102,8 +102,7 @@ split_test_into_family_class('sc5-Test/ground-truth-family.txt')
 
 
 
-def read_images(path, depth):
-    # initialize the data and labels
+def read_images(path, depth, height, width):
     data = []
     labels = []
 
@@ -114,22 +113,18 @@ def read_images(path, depth):
     random.shuffle(imagePaths)
 
     # loop over the input images
-    with tf.device("/GPU:0"):
-        for imagePath in imagePaths:
-            # load the image, pre-process it, and store it in the data list
-            image = cv2.imread(imagePath)
-            image = cv2.resize(image, (IMAGE_DIMS[1], IMAGE_DIMS[0]))
-            image = img_to_array(image)
-            data.append(image)
+    for imagePath in imagePaths:
+        image = cv2.imread(imagePath)
+        image = cv2.resize(image, (height, width))
+        image = img_to_array(image)
+        data.append(image)
 
-            # extract the class label from the image path and update the
-            # labels list
-            label = imagePath.split(os.path.sep)[-depth]
-            labels.append(label)
+        label = imagePath.split(os.path.sep)[-depth]
+        labels.append(label)
     return data, labels
 
 
 
-a, b = read_images("sc5-tensorflow", 2)
+a, b = read_images("sc5-tensorflow", 2, height, width)
 b.shape
 
