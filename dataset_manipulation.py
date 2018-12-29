@@ -95,10 +95,10 @@ def balance_train_and_test(source_train, source_test):
 
 
 
-balance_train_and_test('sc5-tensorflow','sc5-test-tensorflow')
-split_into_subfolders('sc5-Test/ground_truth.txt')
-split_into_family_class('sc5/ground-truth-family.txt')
-split_test_into_family_class('sc5-Test/ground-truth-family.txt')
+#balance_train_and_test('sc5-tensorflow','sc5-test-tensorflow')
+#split_into_subfolders('sc5-Test/ground_truth.txt')
+#split_into_family_class('sc5/ground-truth-family.txt')
+#split_test_into_family_class('sc5-Test/ground-truth-family.txt')
 
 
 
@@ -125,6 +125,6 @@ def read_images(path, depth, height, width):
 
 
 
-a, b = read_images("sc5-tensorflow", 2, height, width)
-b.shape
+#a, b = read_images("sc5-tensorflow", 2, height, width)
+#b.shape
 
