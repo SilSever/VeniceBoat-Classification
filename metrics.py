@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools
+from tensorflow.python.keras import backend as K
 from sklearn.metrics import confusion_matrix
 
 def f1(y_true, y_pred):
