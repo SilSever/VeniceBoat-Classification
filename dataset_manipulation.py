@@ -101,7 +101,11 @@ def balance_train_and_test(source_train, source_test):
 #split_test_into_family_class('sc5-Test/ground-truth-family.txt')
 
 
-
+#depth:
+# -1 image directory
+# -2 boats classification
+# -3 family classification
+# -4 source path
 def read_images(path, depth, height, width):
     data = []
     labels = []
