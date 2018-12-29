@@ -134,6 +134,3 @@ def SmallerVGGNet(width, height, depth, classes):
   model.add(Activation("softmax"))
 
   return model
-
-
-model = SmallerVGGNet.build(width=IMAGE_DIMS[1], height=IMAGE_DIMS[0],depth=IMAGE_DIMS[2], classes=labels.shape[1])
