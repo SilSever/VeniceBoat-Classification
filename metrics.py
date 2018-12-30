@@ -60,5 +60,5 @@ def plot_confusion_matrix(cm,target_names,title='Confusion matrix',cmap=None,nor
   plt.show()
   
   
-def confusion_matrices(model, test_y, text_x):
+def confusion_matrices(model, test_y, test_x):
   return confusion_matrix(test_y.argmax(axis=1) , model.predict(test_x).argmax(axis=1))
