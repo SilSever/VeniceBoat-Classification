@@ -1,6 +1,6 @@
 from VeniceBoatDataset.dataset_manipulation import read_images
-from VeniceBoatDataset.models import SmallerVGGNet
-from VeniceBoatDataset.metrics import f1
+from VeniceBoatDataset.models import VGG_16
+from VeniceBoatDataset.metrics import f1, confusion_matrices
 
 import tensorflow as tf
 from tensorflow import keras
