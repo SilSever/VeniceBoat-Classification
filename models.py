@@ -1,3 +1,6 @@
+#Author:Silvio Severino
+#Date:30/12/18
+
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.python.keras.models import Sequential
