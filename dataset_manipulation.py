@@ -1,3 +1,6 @@
+#Author:Silvio Severino
+#Date:30/12/18
+
 import shutil
 import os
 import cv2
