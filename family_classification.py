@@ -1,3 +1,6 @@
+#Author:Silvio Severino
+#Date:30/12/18
+
 from dataset_manipulation import read_images
 from models import SmallerVGGNet, VGG_16
 from metrics import f1, confusion_matrices
