@@ -1,3 +1,6 @@
+#Author:Silvio Severino
+#Date:30/12/18
+
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools
