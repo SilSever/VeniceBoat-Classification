@@ -1,5 +1,3 @@
-!git clone https://SilSever:Milano15!@github.com/SilSever/VeniceBoatDataset.git
-
 from VeniceBoatDataset.dataset_manipulation import read_images
 from VeniceBoatDataset.models import SmallerVGGNet
 from VeniceBoatDataset.metrics import f1
