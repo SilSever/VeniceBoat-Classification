@@ -19,6 +19,15 @@ Please cite this if you use this dataset:
 ## Goals
 
 The aim of this homework is to classify both the kinds of boats that sailed on the Venice Grand Canal and its families too. You can check the first classification on boat-classification.py file, while the second one on family-classification.py.
+In the dataset the boats's family are all the folders at depth 1, while the boats's kind are the folders at depth 2. In other words:
+```
+depth:
+0 - Main folder
+1 - Family folder
+2 - Kind folder
+3 - Images
+```
+It's the same for the test set.
 
 ## Tools
 I've used two kinds of CNN's, a SmalleVGGNet and a VGG_16. In the end, I have also compared the training results.
