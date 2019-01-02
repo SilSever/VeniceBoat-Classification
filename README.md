@@ -41,4 +41,4 @@ arXiv:1409.1556
 
 ## Authors
 
-* **Silvio Severino**
+* **[Silvio Severino](https://www.linkedin.com/in/silvio-severino-aa2563131/)**
