@@ -14,13 +14,19 @@ Please cite this if you use this dataset:
 	doi={10.1109/AVSS.2015.7301727}
 }
 
-#Goals
+## Goals
 
 The aim of this homework is to classify both the kinds of boats that sailed on the Venice Grand Canal and its families too. You can check the first classification on boat-classification.py file, while the second one on family-classification.py.
 
+## Tools
 I've used two kinds of CNN's, a SmalleVGGNet and a VGG_16. In the end, I have also compared the training results.
 
 Please cite this if you use the VGG_16 net:
 Very Deep Convolutional Networks for Large-Scale Image Recognition
 K. Simonyan, A. Zisserman
 arXiv:1409.1556
+
+
+## Authors
+
+* **Silvio Severino**
